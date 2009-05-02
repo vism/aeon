@@ -95,7 +95,7 @@
 		<height>720</height>
 		<texture>$INFO[listitem.thumb]</texture>
 		<aspectratio>stretch</aspectratio>
-	</control>
+	</control> 
 	
 	<control type="largeimage">
 		<description>Cover image</description>
@@ -118,7 +118,7 @@
 		<texture>$INFO[listitem.path]poster.jpg</texture>
 		<aspectratio>stretch</aspectratio>
 		<fadetime>500</fadetime>
-		<visible>Skin.HasSetting(videotv)</visible>		
+		<visible>Skin.HasSetting(videotv)</visible>
 	</control>	
 	
 	<control type="largeimage">
@@ -408,7 +408,7 @@
 			<label fallback="31414">$INFO[ListItem.Plot]</label>
 			<autoscroll delay="15000" time="1000" repeat="10000">Skin.HasSetting(allowscroll)</autoscroll>			
 			<include>Colour_OffWhite</include>
-	<!-- castmod prevents it from showing when cast container shows -->
+										<!-- castmod prevents it from showing when cast container shows -->
 										<visible>!Control.IsVisible(50)</visible>
 										<!-- end castmod prevents it from showing when cast container shows -->
 		</control>
@@ -616,7 +616,7 @@
 											</control>
 											<control type="button" id ="10">
 												<description>Get Thumb</description>
-												<posx>250</posx>
+												<posx>240</posx>
 												<posy>30</posy>
 												<width>135</width>
 												<height>29</height>
@@ -631,9 +631,9 @@
 												<animation effect="slide" start="0,0" end="0,-30" time="0" condition="Container.Content(TVShows)">conditional</animation>
 											</control>
 											<control type="button" id ="12">
-												<description>Fanart</description>
-												<posx>335</posx>
-												<posy>30</posy>
+												<description>Get Fanart</description>
+												<posx>320</posx>
+												<posy>0</posy>
 												<width>135</width>
 												<height>29</height>
 												<label>31412</label>
@@ -644,7 +644,7 @@
 												<onright>11</onright>
 												<onup>50</onup>
 												<ondown>50</ondown>
-												<visible>!Container.Content(TVShows)</visible>
+												
 											</control>
 										</control>
 										<!-- end castmod new buttons added-->
@@ -660,9 +660,9 @@
 			<autoscroll delay="15000" time="1000" repeat="10000">Skin.HasSetting(allowscroll)</autoscroll>			
 			<label fallback="31414">$INFO[ListItem.Plot]</label>
 			<include>Colour_OffWhite</include>
-			<!-- castmod prevents it from showing when cast container shows -->
-			<visible>!Control.IsVisible(50)</visible>
-			<!-- end castmod prevents it from showing when cast container shows -->
+										<!-- castmod prevents it from showing when cast container shows -->
+										<visible>!Control.IsVisible(50)</visible>
+										<!-- end castmod prevents it from showing when cast container shows -->
 		</control>
 		
 
@@ -899,9 +899,9 @@
 			<autoscroll delay="15000" time="1000" repeat="10000">Skin.HasSetting(allowscroll)</autoscroll>			
 			<label fallback="31414">$INFO[ListItem.Plot]</label>
 			<include>Colour_OffWhite</include>
-			<!-- castmod prevents it from showing when cast container shows -->
-			<visible>!Control.IsVisible(50)</visible>
-			<!-- end castmod prevents it from showing when cast container shows -->
+										<!-- castmod prevents it from showing when cast container shows -->
+										<visible>!Control.IsVisible(50)</visible>
+										<!-- end castmod prevents it from showing when cast container shows -->
 		</control>
 		
 
@@ -943,12 +943,12 @@
 	
 	</control>	
 
-<!-- castmod displays selectable cast -->
+										<!-- castmod displays selectable cast -->
 										<control type="list" id="50">
 											<description>Cast List Container</description>
 											<posx>550</posx>
 											<posy>410</posy>
-											<width>370</width>
+											<width>400</width>
 											<height>206</height>
 											<font>Font_FSInfoPlot</font>
 											<onleft>9000</onleft>
@@ -1005,7 +1005,7 @@
 											<animation effect="slide" start="0,0" end="25,0" time="0" condition="!Control.IsVisible(61)">conditional</animation>
 											<control type="image">
 												<description>Actor image</description>
-												<posx>920</posx>
+												<posx>950</posx>
 												<posy>410</posy>
 												<width>150</width>
 												<height>200</height>
@@ -1016,6 +1016,6 @@
 										</control>
 										<!-- castmod displays selectable cast -->
 
-	
+
 	</controls>
 </window>
