@@ -3,6 +3,7 @@
 # generated files 
 thumbs.db
 Thumbs.db 
+.DS_Store
 
 # fonts 
 /fonts

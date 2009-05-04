@@ -625,6 +625,9 @@
 					<visible>Control.IsVisible(52) + Skin.HasSetting(darkmultiplex)</visible>
 				</control>
 			</control>	
+            <control type="group">
+                <include>Furniture_EpisodeMediaFlags</include>
+            </control>	
 			
 		</control>	
 	</include>
