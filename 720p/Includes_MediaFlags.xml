@@ -506,7 +506,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/paramount.png</texture>
-					<visible>substring(listitem.studio,Paramount) | substring(listitem.studio,Comedy Central)</visible>
+					<visible>substring(listitem.studio,Paramount) + !substring(listitem.studio,Vantage)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -526,7 +526,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/sonypictures.png</texture>
-					<visible>substring(listitem.studio,Sony)</visible>
+					<visible>substring(listitem.studio,Sony) + !substring(listitem.studio,Classic)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -1368,6 +1368,26 @@
     					<texture>flags/view_askew.png</texture>
     					<visible>substring(listitem.studio,View Askew)</visible>
 				</control>
+				<control type="image" id="81">
+    					<include>Furniture_ShowcaseMediaFlagsVars</include>
+    					<texture>flags/Bandai.png</texture>
+    					<visible>substring(listitem.studio,Bandai)</visible>
+				</control>
+				<control type="image" id="81">
+    					<include>Furniture_ShowcaseMediaFlagsVars</include>
+    					<texture>flags/Manga.png</texture>
+    					<visible>substring(listitem.studio,Manga)</visible>
+				</control>
+				<control type="image" id="81">
+    					<include>Furniture_ShowcaseMediaFlagsVars</include>
+    					<texture>flags/P_Vantage.png</texture>
+    					<visible>substring(listitem.studio,Paramount) + substring(listitem.studio,Vantage)</visible>
+				</control>
+				<control type="image" id="81">
+    					<include>Furniture_ShowcaseMediaFlagsVars</include>
+    					<texture>flags/SPC.png</texture>
+    					<visible>substring(listitem.studio,Sony) + substring(listitem.studio,Classic)</visible>
+				</control>
 			</control>
 			<control type="group">
 				<posx>975</posx>
@@ -1518,6 +1538,26 @@
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/default.png</texture>
 					<visible>!Control.IsVisible(81) + !Skin.HasSetting(nodefaultflags)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/SPC.png</texture>
+    					<visible>substring(listitem.studio,Sony) + substring(listitem.studio,Classic)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/P_Vantage.png</texture>
+    					<visible>substring(listitem.studio,Paramount) + substring(listitem.studio,Vantage)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/Manga.png</texture>
+					<visible>substring(listitem.studio,Manga)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/Bandai.png</texture>
+					<visible>substring(listitem.studio,Bandai)</visible>
 				</control>				
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
@@ -1607,7 +1647,7 @@
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/paramount.png</texture>
-					<visible>substring(listitem.studio,Paramount) | substring(listitem.studio,Comedy Central)</visible>
+					<visible>substring(listitem.studio,Paramount) + !substring(listitem.studio,Vantage)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
@@ -1627,7 +1667,7 @@
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/sonypictures.png</texture>
-					<visible>substring(listitem.studio,Sony)</visible>
+					<visible>substring(listitem.studio,Sony) + !substring(listitem.studio,Classic)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
