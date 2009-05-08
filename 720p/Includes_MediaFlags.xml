@@ -491,7 +491,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/warner.png</texture>
-					<visible>substring(listitem.studio,Warner)</visible>
+					<visible>substring(listitem.studio,Warner) + !substring(listitem.studio,Independent)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -1632,7 +1632,7 @@
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/warner.png</texture>
-					<visible>substring(listitem.studio,Warner)</visible>
+					<visible>substring(listitem.studio,Warner) + !substring(listitem.studio,Independent)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
