@@ -536,7 +536,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/lionsgate.png</texture>
-					<visible>substring(listitem.studio,Lionsgate)</visible>
+					<visible>substring(listitem.studio,Lions Gate) | substring(listitem.studio,Lionsgate)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -672,6 +672,11 @@
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/warner_independent_pictures.png</texture>
 					<visible>substring(listitem.studio,Warner Independent)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/walden_media.png</texture>
+					<visible>substring(listitem.studio,Walden Media)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -955,6 +960,11 @@
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/media_asia.png</texture>
+					<visible>substring(listitem.studio,Media Asia)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/maya.png</texture>
 					<visible>substring(listitem.studio,Maya)</visible>
 				</control>
@@ -996,7 +1006,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/lionsgate.png</texture>
-					<visible>substring(listitem.studio,Lionsgate)</visible>
+					<visible>substring(listitem.studio,Lions Gate) | substring(listitem.studio,Lionsgate)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -1142,6 +1152,11 @@
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/fox.png</texture>
 					<visible>substring(listitem.studio,FOX Network)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/focus.png</texture>
+					<visible>substring(listitem.studio,Focus)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -1866,6 +1881,11 @@
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/walden_media.png</texture>
+					<visible>substring(listitem.studio,Walden Media)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/village_roadshow.png</texture>
 					<visible>substring(listitem.studio,Village Roadshow)</visible>
 				</control>
@@ -2146,6 +2166,11 @@
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/media_asia.png</texture>
+					<visible>substring(listitem.studio,Media Asia)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/maya.png</texture>
 					<visible>substring(listitem.studio,Maya)</visible>
 				</control>
@@ -2332,7 +2357,12 @@
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/fox.png</texture>
-					<visible>substring(listitem.studio,FOX Network) + !substring(listitem.studio,searchlight)</visible>
+					<visible>substring(listitem.studio,FOX Network)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_PanelMediaFlagsVars</include>
+					<texture>flags/focus.png</texture>
+					<visible>substring(listitem.studio,Focus)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
