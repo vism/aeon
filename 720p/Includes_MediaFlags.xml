@@ -564,7 +564,7 @@
     					<visible>substring(listitem.studio,Milkshake)</visible>
 				</control>
 				<control type="image" id="81">
-					<include>Furniture_PanelMediaFlagsVars</include>
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/mikezossproductions.png</texture>
 					<visible>substring(listitem.studio,Mike Zoss Productions)</visible>
 				</control>
@@ -849,7 +849,7 @@
 					<visible>substring(listitem.studio,Polsat)</visible>
 				</control>
 				<control type="image" id="81">
-					<include>Furniture_PanelMediaFlagsVars</include>
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/playtone.png</texture>
 					<visible>substring(listitem.studio,Playtone)</visible>
 				</control>
@@ -939,7 +939,7 @@
 					<visible>substring(listitem.studio,Miramax)</visible>
 				</control>
 				<control type="image" id="81">
-					<include>Furniture_PanelMediaFlagsVars</include>
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/mindseye.png</texture>
 					<visible>substring(listitem.studio,Minds Eye)</visible>
 				</control>
@@ -1079,7 +1079,7 @@
 					<visible>substring(listitem.studio,Imaginary Forces)</visible>
 				</control>
 				<control type="image" id="81">
-					<include>Furniture_PanelMediaFlagsVars</include>
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/image_movers.png</texture>
 					<visible>substring(listitem.studio,ImageMovers)</visible>
 				</control>
@@ -1274,7 +1274,7 @@
 					<visible>substring(listitem.studio,Black Dog)</visible>
 				</control>
 				<control type="image" id="81">
-					<include>Furniture_PanelMediaFlagsVars</include>
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/bigtalk.png</texture>
 					<visible>substring(listitem.studio,Big Talk)</visible>
 				</control>
