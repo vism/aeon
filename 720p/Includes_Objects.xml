@@ -711,6 +711,7 @@
 		<focusedcolor>FF000000</focusedcolor>
 		<texturenofocus>-</texturenofocus>
 		<texturefocus>dialogs/context_highlight.png</texturefocus>
+        <alttexturefocus>dialogs/context_highlight.png</alttexturefocus>
 		<align>center</align>
 		<font>Font_ContextMenuButton</font>
 	</include>
